@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@100;300;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+h1 {
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0050dc;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.blog-post-image{
+  width: 100%;
+  padding: 10px;
+
+}
+
+.blog-post-container {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: limegreeny;
+}
+
+.blog-post-title {
+  color: #0050dc;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 2px;
+  border-left-color: #0050dc;
+}
+
+.blog-post-body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.blog-post-tags {
+  font-size: 8px;
+}
