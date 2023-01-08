@@ -12,10 +12,72 @@ h1 {
   text-transform: uppercase;
 }
 
-.blog-post-image{
+.profile-photo {
+  max-width: 75%;
+  display: block;
+  margin: auto;
+  filter: grayscale(100%);
+}
+
+.profile-photo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.nav-bar {
+  background-color: black;
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  display: block;
+  z-index: 1;
+}
+
+.nav-bar ul {
+  list-style: none;
+  color: white;
+  margin: 1%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.side-bar {
+  width: 15%;
+  height: 100%;
+  background-color: #0050dc;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.content-container {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+}
+
+.blog-post-image {
   width: 100%;
   padding: 10px;
-
+  filter: grayscale(100%);
 }
 
 .blog-post-container {
@@ -48,4 +110,10 @@ h1 {
 
 .blog-post-tags {
   font-size: 8px;
+}
+
+.circular--square {
+  border-radius: 50%;
+  border-color: white;
+  border-width: 10px;
 }
